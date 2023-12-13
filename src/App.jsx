@@ -1,36 +1,35 @@
-import { useState } from 'react'
-import './App.css'
-
+import React, { useState } from 'react';
+import './App.css';
 
 function App() {
   const [state, setState] = useState({
-    inputOperation: "0",
-    first: true
-  })
+    inputOperation: '0',
+    first: true,
+  });
   const handleClick = (event) => {
     if (state.first) {
-      setState({ inputOperation: event.target.innerText, first: false})
+      setState({ inputOperation: event.target.innerText, first: false });
     } else {
       setState((prevState) => ({
         ...prevState,
-        inputOperation: `${prevState.inputOperation}${event.target.innerText}`
-      }))
+        inputOperation: `${prevState.inputOperation}${event.target.innerText}`,
+      }));
     }
-  }
+  };
 
   const clearInput = () => {
     setState({
-    inputOperation: "0",
-    first: true
-  })
-  }
+      inputOperation: '0',
+      first: true,
+    });
+  };
   return (
     <div>
       <div>
         <p id="display"></p>
         <input
           value={state.inputOperation}
-          mame="inputOperation"
+          name="inputOperation"
           type="text"
         />
       </div>
@@ -56,7 +55,7 @@ function App() {
         <button onClick={clearInput} id="clear">CE</button>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
