@@ -24,35 +24,42 @@ function App() {
     });
   };
   return (
-    <div>
-      <div>
-        <p id="display"></p>
-        <input
-          value={state.inputOperation}
-          name="inputOperation"
-          type="text"
-        />
-      </div>
-      <div onClick={handleClick}>
-        <button id="add">+</button>
-        <button id="subtract">-</button>
-        <button id="divide">/</button>
-        <button id="multiply">*</button>
-        <button id="decimal">.</button>
-        <button id="zero">0</button>
-        <button id="one">1</button>
-        <button id="two">2</button>
-        <button id="three">3</button>
-        <button id="four">4</button>
-        <button id="five">5</button>
-        <button id="six">6</button>
-        <button id="seven">7</button>
-        <button id="eight">8</button>
-        <button id="nine">9</button>
-      </div>
-      <div>
-        <button id="equals">=</button>
-        <button onClick={clearInput} id="clear">CE</button>
+    <div id="page">
+      <div id='calculator'>
+        <div>
+          <section className='displayArea'>
+            <p id="display"></p>
+          </section>
+        </div>
+        <div onClick={handleClick}>
+          <input
+            value={state.inputOperation}
+            name="inputOperation"
+            type="text"
+          />
+        </div>
+        <section>
+            <div>
+              <button id="add">9</button>
+              <button id="subtract">8</button>
+              <button id="divide">7</button>
+              <button id="multiply">6</button>
+              <button id="decimal">5</button>
+              <button id="zero">4</button>
+              <button id="one">3</button>
+              <button id="two">2</button>
+              <button id="three">1</button>
+              <button id="four">0</button>
+              <button id="five">.</button>
+              <button id="equals">=</button>
+            </div>
+            <div>
+              <button onClick={clearInput} id="clear">CE</button>
+              <button id="six">*</button>
+              <button>-</button>
+              <button>/</button>
+            </div>
+        </section>
       </div>
     </div>
   );
