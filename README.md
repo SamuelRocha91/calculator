@@ -9,7 +9,7 @@
 
 <p>O projeto consiste numa calculadora que realiza as operações matemáticas básicas. </p>
 <a  
-  href='https://drum-machine-opal-pi.vercel.app/'
+  href='https://calculator-dzzheo0ll-samuel-rochas-projects.vercel.app/'
   target='_blank'
   >
   Ver aplicação
