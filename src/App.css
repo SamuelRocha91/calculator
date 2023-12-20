@@ -48,4 +48,18 @@ input {
 
 section {
   display: flex;
+  justify-content: end;
+  align-items: center;
+}
+section p {
+  padding: 3px;
+}
+
+
+#btn-operator {
+  width: 120px;
+}
+
+#btn-number button{
+  height: 75px;
 }

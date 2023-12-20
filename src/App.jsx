@@ -68,7 +68,7 @@ function App() {
           />
         </div>
         <section >
-            <div onClick={handleClick}>
+            <div id="btn-number" onClick={handleClick}>
               <button id="nine">9</button>
               <button id="eight">8</button>
               <button id="seven">7</button>
@@ -82,7 +82,7 @@ function App() {
               <button id="decimal">.</button>
               <button id="equals">=</button>
             </div>
-            <div>
+            <div id='btn-operator'>
               <button onClick={clearInput} id="clear">CE</button>
               <button onClick={handleClick} id="multiply">*</button>
               <button onClick={handleClick} id='subtract'>-</button>
