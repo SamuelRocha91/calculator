@@ -40,9 +40,11 @@ Durante o desenvolvimento deste projeto, as seguintes habilidades foram aprimora
 
 Aqui estão outros projetos que desenvolvi durante as primeiras etapas da minha jornada de desenvolvimento:
 
-- [Projeto 1](#) – Breve descrição do projeto.
-- [Projeto 2](#) – Breve descrição do projeto.
-- [Projeto 3](#) – Breve descrição do projeto.
+
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator)
+- [Pixels Art](https://github.com/SamuelRocha91/PixelsArt)
+- [Todo List](https://github.com/SamuelRocha91/TodoList)
 
 ## Como Rodar
 

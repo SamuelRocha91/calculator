@@ -40,9 +40,11 @@ During the development of this project, the following skills were enhanced:
 
 Here are other projects I developed during the early stages of my development journey:
 
-- [Project 1](#) – Brief description of the project.
-- [Project 2](#) – Brief description of the project.
-- [Project 3](#) – Brief description of the project.
+
+- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_en.md)
+- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_en.md)
+- [Pixels Art](https://github.com/SamuelRocha91/PixelsArt/blob/main/README_en.md)
+- [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_en.md)
 
 ## How to Run
 
