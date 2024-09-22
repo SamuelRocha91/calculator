@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { evaluate } from 'mathjs';
 import './App.css';
 
 function App() {
   const [state, setState] = useState({
     inputOperation: '0',
-    result: '0',
+    lastInput: '',
   });
 
   const handleClick = (e) => {
@@ -13,11 +14,16 @@ function App() {
     let arrayOfInput = null;
     arrayOfInput = state.inputOperation.split(/[-+*/]/);
     const length = arrayOfInput.length - 1;
+    // impede um número com mais de um ponto
     if (isDot && arrayOfInput[length].includes('.')) {
-    // eslint-disable-next-line no-else-return
-    } else if (arrayOfInput[length].length === 1 && arrayOfInput[length] === '0' && !isDot) {
-      const newInputOperation = `${state.inputOperation.slice(0, -1)}${value}`;
-      setState((prevState) => ({ ...prevState, inputOperation: newInputOperation }));
+      window.alert('It is not allowed to type period twice in the same number');
+    } else if (arrayOfInput[length].length === 1 && arrayOfInput[0] === '0' && !isDot) {
+      const newInputOperation = `${value}`;
+      setState((prevState) => ({
+        ...prevState,
+        inputOperation: newInputOperation,
+        lastInput: value,
+      }));
     } else if (value.match(/[-+*/]/) != null) {
       const arratTotal = state.inputOperation.split('');
       const isOperator = arratTotal[arratTotal.length - 1].match(/[-+*/]/) != null;
@@ -35,13 +41,14 @@ function App() {
       } else {
         arratTotal.push(value);
       }
-
-      setState((prevState) => ({ ...prevState, inputOperation: `${arratTotal.join('')}` }));
+      setState((prevState) => ({
+        ...prevState, inputOperation: `${arratTotal.join('')}`, lastInput: value }));
     } else if (value === '=') {
-      // eslint-disable-next-line no-eval, padded-blocks
-      setState((prevState) => ({ ...prevState, inputOperation: `${eval(prevState.inputOperation)}` }));
+      setState({ inputOperation: `${evaluate(state.inputOperation)}`, lastInput: value });
+    } else if (state.lastInput === '=') {
+      setState((prevState) => ({ ...prevState, inputOperation: value, lastInput: value }));
     } else {
-      setState((prevState) => ({ ...prevState, inputOperation: `${prevState.inputOperation}${value}` }));
+      setState((prevState) => ({ ...prevState, inputOperation: `${prevState.inputOperation}${value}`, lastInput: value }));
     }
   };
 
@@ -49,7 +56,6 @@ function App() {
     setState({
       inputOperation: '0',
       result: '0',
-      first: true,
     });
   };
   return (
