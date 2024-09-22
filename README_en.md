@@ -2,15 +2,7 @@
 
 ![Project Demo](./gifs/calculator.gif)
 
-<h2>🌐</h2>
-<ul>
-  <li><a href="https://github.com/SamuelRocha91/calculator" target="_blank">Português</a></li>
-  <li><a href="https://github.com/SamuelRocha91/calculator/blob/main/README_es.md" target="_blank">Español</a></li>
-  <li><a href="https://github.com/SamuelRocha91/calculator/blob/main/README_en.md" target="_blank">English</a></li>
-  <li><a href="https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md" target="_blank">Русский</a></li>
-  <li><a href="https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md" target="_blank">中文</a></li>
-  <li><a href="https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md" target="_blank">العربية</a></li>
-</ul>
+<## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/calculator/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/calculator/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/calculator/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md)
 
 ## Overview
 
@@ -41,10 +33,11 @@ During the development of this project, the following skills were enhanced:
 Here are other projects I developed during the early stages of my development journey:
 
 
-- [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_en.md)
-- [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_en.md)
-- [Pixels Art](https://github.com/SamuelRocha91/PixelsArt/blob/main/README_en.md)
-- [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_en.md)
+- 🖥️ [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_en.md)
+- 🦖 [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_en.md)
+- 🎨 [Pixels Art](https://github.com/SamuelRocha91/PixelsArt/blob/main/README_en.md)
+- 📝 [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_en.md)
+- 🪐 [Star Wars Planets](https://github.com/SamuelRocha91/javascriptStarWarsPlanetsblob/main/README_en.md)
 
 ## How to Run
 
