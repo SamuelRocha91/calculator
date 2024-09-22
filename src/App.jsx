@@ -55,9 +55,13 @@ function App() {
     } else if (value === '=') {
       setState({ inputOperation: `${evaluate(state.inputOperation)}`, lastInput: value });
     } else if (state.lastInput === '=') {
-      setState((prevState) => ({ ...prevState, inputOperation: value, lastInput: value }));
+      if (value === '.') {
+        setState({ inputOperation: `${state.inputOperation}.`, lastInput: value });
+      } else {
+        setState({ inputOperation: value, lastInput: value });
+      }
     } else {
-      setState((prevState) => ({ ...prevState, inputOperation: `${prevState.inputOperation}${value}`, lastInput: value }));
+      setState(({ inputOperation: `${state.inputOperation}${value}`, lastInput: value }));
     }
   };
 
