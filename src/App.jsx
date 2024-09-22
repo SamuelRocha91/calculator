@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { evaluate } from 'mathjs';
+import Swal from 'sweetalert2';
 import './App.css';
 
 function App() {
@@ -8,41 +9,49 @@ function App() {
     lastInput: '',
   });
 
+  const changeStateForInputOperator = (value) => {
+    const arrayInputCharacter = state.inputOperation.split('');
+    const IsTheLastCharacterAnOperator = arrayInputCharacter[arrayInputCharacter.length - 1].match(/[-+*/]/) != null;
+    const IsThePenultimateCharacterAnOperator = arrayInputCharacter.length > 1
+      ? arrayInputCharacter[arrayInputCharacter.length - 2].match(/[+*/]/) != null
+      : false;
+
+    if (
+      IsThePenultimateCharacterAnOperator
+      && IsTheLastCharacterAnOperator
+      && value === '-'
+    ) {
+      arrayInputCharacter.pop();
+      arrayInputCharacter.push(value);
+    } else if (IsThePenultimateCharacterAnOperator && IsTheLastCharacterAnOperator) {
+      arrayInputCharacter.pop();
+      arrayInputCharacter.pop();
+      arrayInputCharacter.push(value);
+    } else if (IsTheLastCharacterAnOperator && value !== '-') {
+      arrayInputCharacter.pop();
+      arrayInputCharacter.push(value);
+    } else {
+      arrayInputCharacter.push(value);
+    }
+    setState({ inputOperation: `${arrayInputCharacter.join('')}`, lastInput: value });
+  };
   const handleClick = (e) => {
     const value = e.target.innerText;
     const isDot = e.target.id === 'decimal';
-    let arrayOfInput = null;
-    arrayOfInput = state.inputOperation.split(/[-+*/]/);
-    const length = arrayOfInput.length - 1;
-    // impede um número com mais de um ponto
-    if (isDot && arrayOfInput[length].includes('.')) {
-      window.alert('It is not allowed to type period twice in the same number');
-    } else if (arrayOfInput[length].length === 1 && arrayOfInput[0] === '0' && !isDot) {
-      const newInputOperation = `${value}`;
-      setState((prevState) => ({
-        ...prevState,
-        inputOperation: newInputOperation,
-        lastInput: value,
-      }));
+
+    const arrayOfCalculation = state.inputOperation.split(/[-+*/]/);
+    const length = arrayOfCalculation.length - 1;
+
+    if (isDot && arrayOfCalculation[length].includes('.')) {
+      Swal.fire('It is not allowed to type period twice in the same number');
+    } else if (
+      arrayOfCalculation[length].length === 1
+      && arrayOfCalculation[0] === '0'
+      && !isDot
+    ) {
+      setState({ inputOperation: value, lastInput: value });
     } else if (value.match(/[-+*/]/) != null) {
-      const arratTotal = state.inputOperation.split('');
-      const isOperator = arratTotal[arratTotal.length - 1].match(/[-+*/]/) != null;
-      const isOperator2 = arratTotal.length > 1 ? arratTotal[arratTotal.length - 2].match(/[+*/]/) != null : false;
-      if (isOperator2 && isOperator && value === '-') {
-        arratTotal.pop();
-        arratTotal.push(value);
-      } else if (isOperator2 && isOperator) {
-        arratTotal.pop();
-        arratTotal.pop();
-        arratTotal.push(value);
-      } else if (isOperator && value !== '-') {
-        arratTotal.pop();
-        arratTotal.push(value);
-      } else {
-        arratTotal.push(value);
-      }
-      setState((prevState) => ({
-        ...prevState, inputOperation: `${arratTotal.join('')}`, lastInput: value }));
+      changeStateForInputOperator(value);
     } else if (value === '=') {
       setState({ inputOperation: `${evaluate(state.inputOperation)}`, lastInput: value });
     } else if (state.lastInput === '=') {
@@ -55,7 +64,7 @@ function App() {
   const clearInput = () => {
     setState({
       inputOperation: '0',
-      result: '0',
+      lastInput: '0',
     });
   };
   return (
