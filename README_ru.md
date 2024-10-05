@@ -1,62 +1,89 @@
-# ![Логотип проекта для новичков](https://img.icons8.com/emoji/48/000000/star-emoji.png) Калькулятор ![Логотип проекта для новичков](https://img.icons8.com/emoji/48/000000/star-emoji.png)
+# <img src="https://cdn-icons-png.flaticon.com/128/5701/5701867.png" alt="Beginner Logo" width="52" height="30" />  Калькулятор  <img src="https://cdn-icons-png.flaticon.com/128/5701/5701867.png" alt="Beginner Logo" width="52" height="30" />
 
 ![Демонстрация проекта](./gifs/calculator.gif)
 
-## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/calculator/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/calculator/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/calculator/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md)
+## 🌐 Idiomas
 
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/calculator/blob/main/README.md) 
+[![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/calculator/blob/main/README_es.md) 
+[![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/calculator/blob/main/README_en.md) 
+[![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md) 
+[![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md) 
+[![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md)
 
 ## Обзор
 
-Это проект для новичков, разработанный в рамках модуля **Основы** курса **Веб-разработки** в Trybe. Основная цель заключалась в создании простого калькулятора с использованием **React**, **JavaScript**, **CSS** и **HTML**. В проекте были использованы файлы `script.js`, `index.html` и `style.css`.
+<details>
+  <summary>🔍 Проект</summary>
+  <p>
+    Это проект для новичков, разработанный в рамках модуля **Основы** курса **Веб-разработки** в Trybe. Основная цель заключалась в создании простого калькулятора с использованием **React**, **JavaScript**, **CSS** и **HTML**. В проекте были использованы файлы `script.js`, `index.html` и `style.css`.
+  </p>
+</details>
 
 ## Возможности
 
-Приложение позволяет пользователям:
-
-- **Выполнять базовые арифметические операции**: сложение, вычитание, умножение и деление.
-- **Очистить ввод**: сбросить калькулятор до начального состояния.
-- **Обрабатывать десятичные точки**: добавлять десятичные точки к числам.
-- **Вычислять результаты**: отображать результат арифметической операции.
+<details>
+  <summary>⚙️ Возможности приложения</summary>
+  <ul>
+    <li><strong>Выполнять базовые арифметические операции</strong>: сложение, вычитание, умножение и деление.</li>
+    <li><strong>Очистить ввод</strong>: сбросить калькулятор до начального состояния.</li>
+    <li><strong>Обрабатывать десятичные точки</strong>: добавлять десятичные точки к числам.</li>
+    <li><strong>Вычислять результаты</strong>: отображать результат арифметической операции.</li>
+  </ul>
+</details>
 
 ## Развиваемые навыки
 
-В процессе разработки этого проекта были улучшены следующие навыки:
+<details>
+  <summary>🛠️ Навыки, полученные в ходе разработки</summary>
+  <ol>
+    <li>Манипуляция <strong>элементами DOM</strong> с использованием React.</li>
+    <li>Реализация <strong>управления состоянием</strong> с помощью хуков React.</li>
+    <li>Применение <strong>логики программирования</strong> для обработки пользовательского ввода и операций.</li>
+    <li>Использование <strong>обработки событий</strong> для взаимодействия с пользователем.</li>
+    <li>Применение <strong>условных операторов</strong> и <strong>циклов</strong> для управления логикой приложения.</li>
+    <li>Написание <strong>модульных функций</strong> для эффективного управления и поддержания кода.</li>
+  </ol>
+</details>
 
-1. Манипуляция **элементами DOM** с использованием React.
-2. Реализация **управления состоянием** с помощью хуков React.
-3. Применение **логики программирования** для обработки пользовательского ввода и операций.
-4. Использование **обработки событий** для взаимодействия с пользователем.
-5. Применение **условных операторов** и **циклов** для управления логикой приложения.
-6. Написание **модульных функций** для эффективного управления и поддержания кода.
+## Другие проекты для начинающих
 
-## Другие Проекты для Начинающих
-
-Вот другие проекты, которые я разработал на ранних этапах своего пути в разработке:
-
-- 🖥️ [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_ru.md)
-- 🦖 [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_ru.md)
-- 🎨 [Pixels Art](https://github.com/SamuelRocha91/PixelsArt/blob/main/README_ru.md)
-- 📝 [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_ru.md)
-- 🪐 [Star Wars Planets](https://github.com/SamuelRocha91/javascriptStarWarsPlanets/blob/main/README_ru.md)
+<details>
+  <summary>📁 Другие проекты</summary>
+  <ul>
+    <li>🖥️ <a href="https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_ru.md">Conversor de binários</a></li>
+    <li>🦖 <a href="https://github.com/SamuelRocha91/memeGenerator/blob/main/README_ru.md">Gerador de memes</a></li>
+    <li>🎨 <a href="https://github.com/SamuelRocha91/PixelsArt/blob/main/README_ru.md">Pixels Art</a></li>
+    <li>📝 <a href="https://github.com/SamuelRocha91/TodoList/blob/main/README_ru.md">Todo List</a></li>
+    <li>🪐 <a href="https://github.com/SamuelRocha91/javascriptStarWarsPlanets/blob/main/README_ru.md">Star Wars Planets</a></li>
+  </ul>
+</details>
 
 ## Как Запустить
 
-1. Клонируйте этот репозиторий:
-   ```bash
-   git clone https://github.com/SamuelRocha91/calculator.git
-   ```
-2. Перейдите в каталог проекта:
-   ```bash
-   cd calculator
-   ```
-3. Установите зависимости:
-   ```bash
-   npm install
-   ```
-4. Запустите сервер разработки:
-   ```bash
-   npm run dev
-   ```
-5. Откройте браузер и перейдите по адресу `http://localhost:3000`, чтобы увидеть приложение в действии.
-
----
+<details>
+  <summary>🚀 Инструкции по запуску</summary>
+  <ol>
+    <li><strong>Клонируйте этот репозиторий:</strong>
+      <pre>
+        git clone https://github.com/SamuelRocha91/calculator.git
+      </pre>
+    </li>
+    <li><strong>Перейдите в каталог проекта:</strong>
+      <pre>
+        cd calculator
+      </pre>
+    </li>
+    <li><strong>Установите зависимости:</strong>
+      <pre>
+        npm install
+      </pre>
+    </li>
+    <li><strong>Запустите сервер разработки:</strong>
+      <pre>
+        npm run dev
+      </pre>
+    </li>
+    <li><strong>Откройте браузер и перейдите по адресу <code>http://localhost:3000</code>, чтобы увидеть приложение в действии.</strong></li>
+  </ol>
+</details>
