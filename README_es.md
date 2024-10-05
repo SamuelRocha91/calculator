@@ -1,44 +1,63 @@
-# ![Logo del Proyecto para Principiantes](https://img.icons8.com/emoji/48/000000/star-emoji.png) Aplicación de Calculadora ![Logo del Proyecto para Principiantes](https://img.icons8.com/emoji/48/000000/star-emoji.png)
+# <img src="https://cdn-icons-png.flaticon.com/128/5701/5701867.png" alt="Beginner Logo" width="52" height="30" /> Aplicación de Calculadora <img src="https://cdn-icons-png.flaticon.com/128/5701/5701867.png" alt="Beginner Logo" width="52" height="30" />
 
 ![Demostración del Proyecto](./gifs/calculator.gif)
 
-## 🌐 [![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/calculator/blob/main/README.md) [![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/calculator/blob/main/README_es.md) [![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/calculator/blob/main/README_en.md) [![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md) [![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md) [![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md)
+## 🌐 
+[![Português](https://img.shields.io/badge/Português-green)](https://github.com/SamuelRocha91/calculator/blob/main/README.md) 
+[![Español](https://img.shields.io/badge/Español-yellow)](https://github.com/SamuelRocha91/calculator/blob/main/README_es.md) 
+[![English](https://img.shields.io/badge/English-blue)](https://github.com/SamuelRocha91/calculator/blob/main/README_en.md) 
+[![Русский](https://img.shields.io/badge/Русский-lightgrey)](https://github.com/SamuelRocha91/calculator/blob/main/README_ru.md) 
+[![中文](https://img.shields.io/badge/中文-red)](https://github.com/SamuelRocha91/calculator/blob/main/README_ch.md) 
+[![العربية](https://img.shields.io/badge/العربية-orange)](https://github.com/SamuelRocha91/calculator/blob/main/README_ar.md)
 
-## Descripción
+<details>
+<summary><h2>Visión General</h2></summary>
 
-Este es un proyecto para principiantes desarrollado como parte del módulo de **Fundamentos** del curso de **Desarrollo Web** en Trybe. El objetivo principal fue crear una aplicación de calculadora simple utilizando **React**, **JavaScript**, **CSS** y **HTML**. El proyecto involucró la manipulación de los archivos `script.js`, `index.html` y `style.css`.
+Este es un proyecto inicial desarrollado como parte del módulo de **Fundamentos** del curso de **Desarrollo Web** de Trybe. El objetivo principal fue crear una aplicación de calculadora simple usando **React**, **JavaScript**, **CSS** y **HTML**. El proyecto implicó la manipulación de los archivos `script.js`, `index.html` y `style.css`.
 
-## Funcionalidades
+</details>
+
+<details>
+<summary><h2>Funciones</h2></summary>
 
 La aplicación permite a los usuarios:
 
-- **Realizar operaciones aritméticas básicas**: Suma, resta, multiplicación y división.
-- **Limpiar la entrada**: Restablecer la calculadora al estado inicial.
-- **Manejar puntos decimales**: Añadir puntos decimales a los números.
+- **Realizar operaciones aritméticas básicas**: Adición, sustracción, multiplicación y división.
+- **Limpiar la entrada**: Reiniciar la calculadora a su estado inicial.
+- **Trabajar con puntos decimales**: Agregar puntos decimales a los números.
 - **Calcular resultados**: Mostrar el resultado de la operación aritmética.
 
-## Habilidades Desarrolladas
+</details>
+
+<details>
+<summary><h2>Habilidades Desarrolladas</h2></summary>
 
 Durante el desarrollo de este proyecto, se mejoraron las siguientes habilidades:
 
 1. Manipulación de **elementos del DOM** usando React.
 2. Implementación de **gestión de estado** con hooks de React.
-3. Aplicación de **lógica de programación** para manejar entradas y operaciones del usuario.
+3. Aplicación de **lógica de programación** para manejar entradas y operaciones de los usuarios.
 4. Utilización de **manejo de eventos** para interacciones del usuario.
 5. Uso de **declaraciones condicionales** y **bucles** para gestionar la lógica de la aplicación.
-6. Escritura de **funciones modulares** para mantener y gestionar el código de manera efectiva.
+6. Escritura de **funciones modulares** para mantener y gestionar el código de manera eficaz.
 
-## Otros Proyectos para Principiantes
+</details>
 
-Aquí están otros proyectos que he desarrollado durante las primeras etapas de mi camino en el desarrollo:
+<details>
+<summary><h2>Otros Proyectos Iniciantes</h2></summary>
 
-- 🖥️ [Conversor de binários](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_es.md)
-- 🦖 [Gerador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_es.md)
+Aquí hay otros proyectos que desarrollé durante las primeras etapas de mi viaje de desarrollo:
+
+- 🖥️ [Conversor de binarios](https://github.com/SamuelRocha91/Bin2Dec/blob/main/README_es.md)
+- 🦖 [Generador de memes](https://github.com/SamuelRocha91/memeGenerator/blob/main/README_es.md)
 - 🎨 [Pixels Art](https://github.com/SamuelRocha91/PixelsArt/blob/main/README_es.md)
-- 📝 [Todo List](https://github.com/SamuelRocha91/TodoList/blob/main/README_es.md)
-- 🪐 [Star Wars Planets](https://github.com/SamuelRocha91/javascriptStarWarsPlanets/blob/main/README_es.md)
+- 📝 [Lista de Tareas](https://github.com/SamuelRocha91/TodoList/blob/main/README_es.md)
+- 🪐 [Planetas de Star Wars](https://github.com/SamuelRocha91/javascriptStarWarsPlanets/blob/main/README_es.md)
 
-## Cómo Ejecutar
+</details>
+
+<details>
+<summary><h2>Cómo Ejecutar</h2></summary>
 
 1. Clona este repositorio:
    ```bash
@@ -56,5 +75,6 @@ Aquí están otros proyectos que he desarrollado durante las primeras etapas de 
    ```bash
    npm run dev
    ```
-5. Abre tu navegador y accede a `http://localhost:3000` para ver la aplicación en acción.
+5. Abre tu navegador y accede a `http://localhost:3000` para ver la aplicación en funcionamiento.
 
+</details>
